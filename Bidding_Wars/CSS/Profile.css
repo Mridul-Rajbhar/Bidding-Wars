@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(90deg, #D7E1EC,#D5FEFD);
+    font-family:Tw Cen MT ; 
+    overflow:auto;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #4b423e;
+    font-family: Tw Cen MT;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    
+    background: linear-gradient(90deg ,#FCE043,#EEC0C6);
+  }  

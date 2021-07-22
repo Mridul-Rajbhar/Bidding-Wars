@@ -1,0 +1,145 @@
+
+  body{
+    background: linear-gradient(90deg, #D7E1EC,#D5FEFD);
+    font-family:Tw Cen MT ; 
+    overflow:auto;
+  }
+  
+  table{
+    margin-top: 2%;
+    width:100%;
+    height: 100px;
+    table-layout: absolute;
+    border:3px solid #FCE043;
+    border-radius: 30px;
+    
+  }
+  
+  th{
+    padding: 15px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000018  ;
+    border:2px solid #FCE043;
+    background-color: rgba(255,255,255,0.3);
+  }
+  td{
+    padding:40px 25px ;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000018  ;
+    border:2px solid #e77845;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #4b423e;
+    font-family: Tw Cen MT;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    
+    background: linear-gradient(90deg ,#FCE043,#EEC0C6);
+  ;
+  }
+  
+#select{
+    text-align: center;
+    font-family: Tw Cen MT;
+    font-size: 17px;
+    font-weight: 800;
+    border: 3px solid #33FFFF;
+    border-radius: 24px;
+    margin:17px 14cm  auto;
+    padding: 10px 25px;
+    align-content: center;
+}
+#select:focus
+{
+    border-radius: 24px ;
+    border-color:#40f3f3 ;
+}
+.sel{
+    text-align: center;
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    margin:20px 13cm auto;
+    padding: 3px 20px;
+  
+}
+input[type = "submit"]
+{
+  border:0;
+  
+  display: block;
+  margin: 20px  14.5cm auto;
+  width: 190px;
+  text-align: center;
+  font-weight:bold;
+  font-family:bahnschrift;
+  font-size: 14px;
+  padding: 5px 13px;
+  outline: none;
+  color: white;
+  
+  transition: 0.25s;
+  cursor: pointer;
+  background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+  background-size: 400%;
+  border-radius: 5px;
+}
+input[type = "submit"]:hover
+{
+   animation : animate 8s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+               100%
+    {
+        background-position: 400%;
+    }
+}
+  
+#sub
+{
+  display: block;
+  margin-left: 15%;
+  padding: 7px 15px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none; 
+  font-family: bahnschrift;
+  font-weight: bold;
+  font-size: 15px;
+}
+#sub:hover
+{
+    background: inherit;
+    color: #f45702;
+    border-bottom: 2px solid #f45702;
+}

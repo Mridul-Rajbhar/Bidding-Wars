@@ -1,0 +1,45 @@
+body {
+    background:linear-gradient(270deg,#09203F,#537895);
+
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(0deg ,#7CFFCB,#7EE8FA);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    display: block;
+    color: #4b423e;
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background: linear-gradient(90deg ,#FCE043,#EEC0C6);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

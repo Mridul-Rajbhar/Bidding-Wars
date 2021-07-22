@@ -1,0 +1,110 @@
+
+
+body{
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg");
+  background-size: 100% ;
+  background-repeat:no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+ 
+}
+.Form{
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border-top: 10px solid #f45702;
+  font-size: 20px;
+  font-family: Tw Cen MT  ;
+  color: #2A293E;
+  position:absolute;
+  margin-left: 30%;
+  margin-top: 3%;
+  border-left: 5px solid #f45702 ;
+  border-right: 5px solid #f45702 ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: #4b423e;
+  font-family: Tw Cen MT;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  
+  background: linear-gradient(90deg ,#FCE043,#EEC0C6);
+;
+}
+.text{
+    
+    font-size: 20px;
+    font-family: Tw Cen MT  ;
+    color: #2A293E;
+  }
+label, input, textarea{
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-family:bahnschrift;
+}
+input, textarea{
+  border: none;
+  border: 2px solid rgba(0, 0, 0, 0.425);
+  border-radius: 2px;
+  background: #f8f4e5;
+  padding-left: 5px;
+  outline: none;
+}
+input:focus, textarea:focus{
+  border: 2px solid #6bd4b1;
+}
+textarea{
+  resize: none;
+}
+#type_product{
+    font-size: 16px;
+    font-family: Tw Cen MT  ;
+    color: #2A293E;   
+}
+input[type= "file"]{
+    font-size: 16px;
+    font-family: Tw Cen MT  ;
+    color: #2A293E; 
+}
+input[type= "submit"]{
+  display: block;
+  
+  padding: 0 20px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none; 
+  font-family: bahnschrift;
+  font-weight: bold;
+  font-size: 18px;
+}
+  input[type= "submit"]:hover{
+    background: inherit;
+    color: #f45702;
+    border-bottom: 2px solid #f45702;
+}
+::selection {
+  background: rgb(255, 199, 184);
+}

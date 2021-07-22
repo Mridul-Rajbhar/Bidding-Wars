@@ -1,0 +1,202 @@
+body{
+    background: linear-gradient(90deg,#F5E3E6,#D5FEFD);
+    font-family:Tw Cen MT ; 
+    overflow:inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #4b423e;
+    font-family: Tw Cen MT;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    
+    background: linear-gradient(90deg ,#F67062,#EEC0C6);
+  ;
+  }
+  
+  .Form{
+    background:linear-gradient(90deg, #fecfef , #a1c4fd);
+    padding: 55px 150px;
+    border-top: 10px solid #f45702;
+    font-size: 20px;
+    font-family: Tw Cen MT  ;
+    color: #2A293E;
+    position:absolute;
+    margin-left: 30%;
+    margin-top: 3%;
+    border-left: 5px solid line ;
+    border-right: 5px solid #f45702 ;
+    border-bottom: 5px solid line ;
+  }
+
+  .err_msg
+{
+    color:#f75c5c;
+    font-family: Tw Cen MT;
+    font-size:15px;
+    font-weight: bold;
+}
+
+  h1
+  {
+    font-family: Century Gothic; 
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#09203F,#537895);
+    background-clip:-webkit-background-clip;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+  }
+  textarea
+  {
+    color: #021657;
+    margin-top: 8%;
+    display: block;
+    width: 8cm;
+    height: 3cm;
+    resize: none;
+    margin: 20px auto;
+    border-radius: 8px;
+    transition: 0.25s;
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    font-weight: 1000;
+    font-weight: 1000;
+    border: 3px solid #33FFFF;
+  }
+  
+  
+
+  input[type = "text"]
+  {
+    position:relative;
+    top: -50px;
+    margin-top: 0%;
+    display: block;
+    width: 300px;
+    outline: none;
+    color: #021657;
+    border-radius: 14px;
+    transition: 0.25s;
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    height: 30px;
+    resize: none;
+    margin: 20px 0px 0px -1px;
+    text-align: center;
+    font-weight: 1000;
+    border: 3px solid #33FFFF;
+  }
+  
+  input[type = "text"]:focus
+{
+  width: 380px;
+  border-color: #FFFF66;
+}
+input[type = "email"]
+  {
+    position: relative;
+    top: -20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    color: #021657;
+    border-radius: 14px;
+    transition: 0.25s;
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    font-weight: 1000;
+    resize: none;
+    margin: 20px 0px 0px -1px;
+    text-align: center;
+    border: 3px solid #33FFFF;
+  }
+  
+  input[type = "email"]:focus
+{
+  width: 380px;
+  border-color: #FFFF66;
+}
+input[type = "email"]:focus::placeholder
+{
+  color: #240555;
+}
+input[type = "email"]::placeholder
+{
+  color: #021657;
+}
+input[type = "text"]:focus::placeholder
+{
+  color: #240555;
+}
+input[type = "text"]::placeholder
+{
+  color: #021657;
+}
+textarea:focus
+{
+  width: 380px;
+  height: 180px;
+  border-color: #FFFF66;
+}
+textarea:focus::placeholder
+{
+  color: #240555;
+}
+textarea::placeholder
+{
+  color: #021657;
+}
+
+input[type="submit"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  text-align: center;
+  font-weight:bold;
+  font-family:Century Gothic;
+  font-size: 16px;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+  background-size: 400%;
+  border-radius: 40px;
+}
+
+
+input[type="submit"]:hover
+{
+background: -webkit-linear-gradient(0deg,#f45702,#ED008C);
+background-clip:-webkit-background-clip;
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #f45702;
+}

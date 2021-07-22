@@ -1,0 +1,144 @@
+body{
+    background:linear-gradient(270deg,#09203F,#537895);
+    overflow: scroll;
+    height: 100%;
+  }
+  header
+  {
+    background: -webkit-linear-gradient(0deg ,#7CFFCB,#7EE8FA);
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-size: 20px;
+    
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+  }
+  
+  li {
+  float: left;
+  }
+  
+  li a {
+  display: block;
+  color: #4b423e;
+  font-family: Tw Cen MT;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li a:hover {
+  
+  background: linear-gradient(90deg ,#FCE043,#EEC0C6);
+  ;
+  }
+  
+  .Form
+  {
+  width: 350px;  
+  padding: 92px;
+  position:absolute;
+  margin-top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #f1e0e0;
+  text-align: center;
+  border-radius: 40px ;
+  opacity:1;
+  }
+  
+  .err_msg
+  {
+    color:#f75c5c;
+    font-family: Tw Cen MT;
+    font-size:10px;
+    font-weight: bold;
+  }
+  
+  ::placeholder{
+    color: rgb(39, 38, 38);
+  }
+  input:focus::placeholder {
+    color: rgb(145, 136, 136);
+  }
+  
+  input[type=text]{
+    border:0;
+    background: whitesmoke;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 1000;
+    border: 3px solid #33FFFF;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(39, 38, 38);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    
+  }
+  
+  input[type = "text"]:focus
+  {
+    width: 280px;
+    border-color: #FFFF66;
+  }
+
+  .text{
+      font-family: Tw Cen MT;
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(39, 38, 38);
+      margin:10px auto;
+  }
+  h4{
+      font-family:bahnschrift;
+      font-weight:bold;
+      font-size: 14px;
+  }
+  
+  input[type=submit]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    text-align: center;
+    font-weight:bold;
+    font-family:Tw Cen MT;
+    font-size: 16px;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+    background-size: 400%;
+    border-radius: 40px;
+  }
+  
+  input[type = "submit"]:hover
+  {
+     animation : animate 8s linear infinite;
+  }
+  @keyframes animate
+  {
+      0%
+      {
+          background-position: 0%;
+      }
+                 100%
+      {
+          background-position: 400%;
+      }
+  }
+  

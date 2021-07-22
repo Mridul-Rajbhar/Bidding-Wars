@@ -1,0 +1,178 @@
+body{
+    background:linear-gradient(270deg,#F5E3E6,#D5FEFD);
+    overflow: scroll;
+    height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg ,#7CFFCB,#7EE8FA);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #4b423e;
+  font-family: Tw Cen MT;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  
+  background: linear-gradient(90deg ,#72ff31,#efff60);
+
+}
+
+.text{
+  font-family: Century Gothic;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f11313, #feab3a, #9bff17, #47f3ff);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: animate 5s infinite linear;
+    animation: animate 5s infinite linear;
+}
+
+@keyframes animate {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.Form
+{
+  width: 450px;  
+  padding: 92px;
+  height: 200px;
+  position:absolute;
+  margin-top: 12%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:linear-gradient(270deg, #f1ebed,#95ffff);
+  text-align: center;
+  border-radius: 40px ;
+ 
+}
+h1
+{
+  font-family: Century Gothic; 
+  text-align: center;
+  margin-top: 4%;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#09203F,#537895);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+          
+
+}
+::placeholder{
+    color: rgb(39, 38, 38);
+}
+input:focus::placeholder {
+    color: rgb(145, 136, 136);
+  }
+input[type="text"]
+{
+    border:0;
+  background: whitesmoke;
+  display: block;
+  margin:-2px auto;
+  text-align: center;
+  font-family: Tw Cen MT;
+  font-size: 17px;
+  font-weight: 1000;
+  border: 3px solid #33FFFF;
+  padding: 10px 10px;
+  width: 280px;
+  height: 25px; 
+  outline: none;
+  color: rgb(39, 38, 38);
+  border-radius: 20px;
+  transition: 0.25s;
+  
+}
+input[type="password"]
+{
+border:0;
+  background: whitesmoke;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 1000;
+  border: 3px solid #33FFFF;
+  padding: 10px 10px;
+  width: 280px;
+  height: 25px; 
+  outline: none;
+  color: rgb(39, 38, 38);
+  border-radius: 24px;
+  transition: 0.25s;
+  font-family: Tw Cen MT;
+  font-size: 17px;
+}
+input[type = "text"]:focus
+{
+  width: 350px;
+  border-color: #FFFF66;
+}
+
+input[type = "password"]:focus
+{
+  width: 350px;
+  border-color: #FFFF66 ;
+}
+input[type = "text"]:focus::placeholder
+{
+  color: #240555;
+}
+input[type = "password"]:focus::placeholder
+{
+  color: #240555;
+}
+
+
+input[type="submit"]
+{
+  display: block;
+  margin-top: 5%;
+  margin-left: 4.5cm;
+  padding: 9px 35px;
+  border: none;
+  background:linear-gradient(90deg,#f45702,#ED008C) ;
+  color: white;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none; 
+  font-family: bahnschrift;
+  font-weight: bold;
+  font-size: 16px;
+ 
+}
+
+
+input[type="submit"]:hover
+{
+background: -webkit-linear-gradient(0deg,#f45702,#ED008C);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #f45702;
+}  
+

@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(90deg,#192436,#192436);
+    height: 100%;
+    line-height: 1;
+    user-select: none;
+}  
+
+.top ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 20px ;
+  overflow: hidden;
+  background: linear-gradient(90deg,#192436,#192436);
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  font-family: Tw Cen MT;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(7, 11, 44);
+  background: linear-gradient(270deg ,#fffcff,#d5fefd);
+;
+}
+  
+h3 {
+  font-weight : normal;
+  font-size:40px;
+  letter-spacing: .125rem;
+  font: normal 40px/50px 'Raleway';
+     }
+            
+h1 {
+    text-align:center;
+  font-weight : bold;
+  font-size:80px;
+  letter-spacing: .1rem;
+  font-family : Tw Cen MT;
+ }

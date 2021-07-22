@@ -1,0 +1,26 @@
+.button
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  text-align: center;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:Century Gothic;
+  font-size: 16px;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  
+  transition: 0.25s;
+  cursor: pointer;
+  background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+  background-size: 400%;
+  border-radius: 40px;
+}
+.button:hover
+{
+   animation : animate 8s linear infinite;
+}

@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(90deg, #D7E1EC,#D5FEFD);
+    font-family:Tw Cen MT ; 
+    overflow:auto;
+  }
+  
+.center {
+  margin-left: 40%;
+  width: 50%;
+}
+
+#totalBidTime {
+    color: #004853;
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#timer {
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 25px;
+}
+
+.err_msg
+{
+    color:#f75c5c;
+    font-family: Tw Cen MT;
+    font-size:20px;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: rgb(39, 38, 38);
+}
+input:focus::placeholder {
+    color: rgb(145, 136, 136);
+  }
+input[type=text]
+{
+    border:0;
+  background: whitesmoke;
+  display: block;
+  margin:-2px auto;
+  text-align: center;
+  font-family: Tw Cen MT;
+  font-size: 18px;
+  font-weight: 1000;
+  border: 3px solid #33FFFF;
+  padding: 10px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(39, 38, 38);
+  border-radius: 20px;
+  transition: 0.25s;
+  
+}
+
+input[type = "text"]:focus
+{
+  width: 280px;
+  border-color: #FFFF66;
+}
+
+input[type = "submit"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  text-align: center;
+  font-weight:bold;
+  font-family:bahnschrift;
+  font-size: 16px;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+  background-size: 400%;
+  border-radius: 40px;
+}
+input[type = "submit"]:hover
+{
+   animation : animate 8s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+               100%
+    {
+        background-position: 400%;
+    }
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #191970;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #dddddd;
+}

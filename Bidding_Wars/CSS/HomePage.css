@@ -1,0 +1,225 @@
+body{
+    background:linear-gradient(90deg,#192436,#192436);
+    height: 100%;
+    line-height: 1;
+    user-select: none;
+}
+/*Login Form*/
+.LoginForm
+{
+  width: 350px;
+  height: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  background: #f1e0e0;
+  text-align: center;
+  border-radius: 40px ;
+  opacity:0.95;
+  
+}
+wrapper{
+  
+  width: 1080px; 
+}
+#Home{
+  background:linear-gradient(90deg,#192436,#192436);
+  height: 120px;
+  width: 23cm;
+  border-radius: 0.5rem;
+  position: relative;
+  top: 250px;
+  font: normal 40px/50px 'Raleway';
+  color: #999;
+}
+p1{
+  white-space: nowrap;
+  background:linear-gradient(90deg,#192436,#192436);
+}
+b {
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  float: left; 
+  background:linear-gradient(90deg,#192436,#192436);
+}
+
+p2{
+  font-family: Tw Cen Mt;
+  display: inline-block;
+  color: #e74c3c;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  font-size: 55px;
+  letter-spacing: 2px;
+  background:linear-gradient(90deg,#192436,#192436);
+}
+p3{
+  height: 50px;
+  float: left;
+  white-space: nowrap;
+  position: relative;
+  font-size: 85px;
+  background:linear-gradient(90deg,#192436,#192436);
+}
+span1 {
+  display: inline-block;
+  color: #e74c3c;
+  position: relative;
+  white-space: nowrap;
+  animation: move 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  font-size: 65px;
+  letter-spacing: 2px;
+  background:linear-gradient(90deg,#192436,#192436);
+}
+@keyframes move {
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px;}
+  60% { top: -0px;}
+  60% { top: -0px;}
+}
+
+.err_msg
+{
+    color:#f75c5c;
+    font-family: Tw Cen MT;
+    font-size:15px;
+    font-weight: bold;
+}
+header
+{
+    background: -webkit-linear-gradient(0deg ,#7CFFCB,#7EE8FA);
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-size: 20px;
+    
+}
+.top ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 20px ;
+  overflow: hidden;
+  background: linear-gradient(90deg,#192436,#192436);
+}
+
+
+
+li a {
+  display: block;
+  color: #ffffff;
+  font-family: Tw Cen MT;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(7, 11, 44);
+  background: linear-gradient(270deg ,#fffcff,#d5fefd);
+;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+input[type=text]
+{
+    border:0;
+  background: linear-gradient(90deg, #00d2ff ,#06beb6 );
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 1000;
+  border: 3px solid #33FFFF;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  
+}
+input[type=password]
+
+{
+    border:0;
+  background: linear-gradient(90deg , #00d2ff ,#06beb6 );
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 1000;
+  border: 3px solid #33FFFF;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-family: Tw Cen MT;
+  font-size: 20px;
+}
+input[type = "text"]:focus
+{
+  width: 280px;
+  border-color: #FFFF66;
+}
+
+input[type = "password"]:focus
+{
+  width: 280px;
+  border-color: #FFFF66 ;
+}
+
+
+input[type = "submit"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  text-align: center;
+  font-weight:bold;
+  font-family:Century Gothic;
+  font-size: 16px;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  background: linear-gradient(90deg , #ff2525,#ffeb3b, #03a9f4, #FF2525 );
+  background-size: 400%;
+  border-radius: 40px;
+}
+input[type = "submit"]:hover
+{
+   animation : animate 8s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+               100%
+	{
+		background-position: 400%;
+	}
+}
+.Buttons{
+    font-weight:bold;
+  font-family:Century Gothic;
+  font-size: 16px;
+}
