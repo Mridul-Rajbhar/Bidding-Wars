@@ -2,6 +2,8 @@
 Bidding wars is an online auction website made with HTML5, CSS3, JavaScript and PHP and hosted on 000webhost<br>
 website link: http://biddingwars.tk/
 
+<img src="SS/rules.png">
+
 <h1>Login/SignIn Page</h1>
 1. Enter the username and password.<br>
 2. If wrong password then error occurs Invalid Password.<br>
